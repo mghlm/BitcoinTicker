@@ -57,11 +57,19 @@
 				63A618281C53C381007AF001 /* AppDelegate.swift */,
 				63A6182A1C53C381007AF001 /* ViewController.swift */,
 				63A6182C1C53C381007AF001 /* Main.storyboard */,
+				914C65E61F66D5D30032EFE2 /* Supporting Files */,
+			);
+			path = BitcoinTicker;
+			sourceTree = "<group>";
+		};
+		914C65E61F66D5D30032EFE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				63A6182F1C53C381007AF001 /* Assets.xcassets */,
 				63A618311C53C381007AF001 /* LaunchScreen.storyboard */,
 				63A618341C53C381007AF001 /* Info.plist */,
 			);
-			path = BitcoinTicker;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +104,7 @@
 				TargetAttributes = {
 					63A618241C53C381007AF001 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = DF28856VV6;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -254,11 +263,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DF28856VV6;
 				INFOPLIST_FILE = BitcoinTicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.londonappbrewery.BitcoinTicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magnusholm.BitcoinTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -269,11 +278,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DF28856VV6;
 				INFOPLIST_FILE = BitcoinTicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.londonappbrewery.BitcoinTicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magnusholm.BitcoinTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
